@@ -1,0 +1,47 @@
+ .wrapper{ 
+    margin: 0; 
+    height: 250%; 
+    -o-repeat: center center fixed;
+    color: rgb(146, 19, 19);
+    background-image: url("..//../assets/image/bg1.jpg");  
+    background-size: 150% ; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+} 
+
+    profile-image img {
+        position: relative;
+        border-radius: 50%;
+        height: 200px;
+        width: 250px;
+        padding: 0;
+        margin: 0;
+        border: 15px solid transparent;
+        z-index: 9999;
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+    }
+    
+    /* .section {
+        padding: 10px 0;
+        position: relative;
+        background: #4f3131;
+    } */
+
+.navbar .navbar-nav{
+        border-width: 2px;
+        font-weight: 400;
+        font-size: 0.8571em;
+        line-height: 1.35em;
+        margin: 5px 5px;
+        border: solid;
+        border-radius: 0.1875rem;
+        padding: 11px 22px;
+        cursor: pointer;
+        background-color: rgb(21, 70, 95);
+        color: #8dbcf5;
+    }
+    
